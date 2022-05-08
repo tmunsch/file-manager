@@ -4,6 +4,7 @@
 /* jshint node: true */
 "use strict";
 
+require('dotenv').config();
 const express = require("express");
 const { engine: hbs } = require("express-handlebars");
 const session = require("express-session");

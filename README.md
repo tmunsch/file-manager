@@ -57,6 +57,8 @@ These screenshots are not up-to-date.
 
 The following environmental variables can be used to configure `file-manager`.
 
+If you're running this outside of docker. Make a copy of the .env.example file to .env and fill out the details for your needs.
+
 ### SESSION_KEY=
 
 Express session key, generate something random.
